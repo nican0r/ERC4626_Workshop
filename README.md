@@ -9,10 +9,9 @@ The verification is checked against OpenZeppelin's [implementation of ERC4626](h
 
 1. [Sign-up for Certora Free Tier](https://www.certora.com/signup?plan=prover)
 * _Note: It's important to also set the CERTORAKEY environment variable._
-2. Install the Certora prover [Documentation](https://docs.certora.com/en/latest/docs/user-guide/getting-started/install.html#)
-3. Run the Vault specification by executing `certoraRun certora/conf/Vault.conf` from within the ERC4626_Workshop folder to view the initial rules verified for the vault. Follow the link returned and wait for the verification to be completed. Alternatively, open the [pre-computed results](https://prover.certora.com/output/51488/2414fef5c0a24b37a780d03f54dc5985/?anonymousKey=3bff148cb433a68c92412b14e73dcb9096ecb2c9).
-4. Run the InflationAttack specification by executing `certoraRun certora/conf/InflationAttack.conf` from within the ERC4626_Workshop folder. Follow the link returned and wait for the verification to be completed. Alternatively, open the [pre-computed results](https://prover.certora.com/output/51488/7c15a3a2cf3b4c43b89c06a565f023f4/?anonymousKey=7566763bc37c184851c64e773df10988a52fbc5e).
- the rule that verifies the inflation attack. 
+2. Install the [Certora prover](https://docs.certora.com/en/latest/docs/user-guide/getting-started/install.html#)
+3. Run the Vault specification by executing `certoraRun certora/conf/Vault.conf` from within the ERC4626_Workshop folder to view the initial rules verified for the vault. Follow the link returned and wait for the verification to be completed. Alternatively, open the [pre-computed results](https://prover.certora.com/output/51488/0544a074c96b498a893b3f5fa67e9a0d/?anonymousKey=e987db8e13f3635bc61bb95196a75d5291d2ebd7).
+4. Run the InflationAttack specification by executing `certoraRun certora/conf/InflationAttack.conf` from within the ERC4626_Workshop folder. Follow the link returned and wait for the verification to be completed. Alternatively, open the [pre-computed results](https://prover.certora.com/output/51488/d09e191668d54fcba2e6ffb3da6a4185/?anonymousKey=57153d4eb0dcb8fd11d603a57ffeac86a3ef2c3a).
  
 # Additional Material
 
