@@ -8,7 +8,7 @@ methods {
 
 /**
 * Property 1: Property "Mint by user must increase totalSupply".
-* Rule that proves users receive shares after calling mint()
+* Rule that proves minting increases totalSupply of shares of the vault
 */
 rule mintIncreasesTotalShareSupply(uint256 shares, address receiver) {
     env e;
